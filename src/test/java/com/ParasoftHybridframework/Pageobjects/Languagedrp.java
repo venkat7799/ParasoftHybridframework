@@ -13,7 +13,7 @@ public class Languagedrp {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath="//select[@id='gtranslate_selector']")
+	@FindBy(xpath="//select[@class='gt_selector notranslate']")
 	WebElement language;
 	
 	public void ClickOnLanguage() {
